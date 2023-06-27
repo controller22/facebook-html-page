@@ -17,18 +17,20 @@
                 margin-top: 180px;
                 width: 450px;
             }
+
             .login {
-            background-color: rgb(255, 255, 255);
-            width: 400px;
-            height: 350px;
-            border-radius: 3%;
-            display: flex;
-            margin-top: 150px;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            text-align: center;
-        }
+                background-color: rgb(255, 255, 255);
+                box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+                width: 400px;
+                height: 350px;
+                border-radius: 3%;
+                display: flex;
+                margin-top: 150px;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                text-align: center;
+            }
         }
 
         @media screen and (min-width: 900px) and (max-width:1024px) {
@@ -37,19 +39,21 @@
                 width: 400px;
                 margin-left: 30px;
             }
+
             .login {
-            background-color: rgb(255, 255, 255);
-            width: 400px;
-            height: 350px;
-            border-radius: 3%;
-            display: flex;
-            margin-top: 150px;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            text-align: center;
+                background-color: rgb(255, 255, 255);
+                box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+                width: 400px;
+                height: 350px;
+                border-radius: 3%;
+                display: flex;
+                margin-top: 150px;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                text-align: center;
+            }
         }
-        } 
 
         @media screen and (max-width: 900px) {
             .title {
@@ -64,33 +68,31 @@
             }
 
 
-            .info-msg.login {
-                order: -1;
-            }
+            /* .info-msg.login {
+                order: 1;
+            } */
+
             .login {
-            background-color: rgb(255, 255, 255);
-            width: 400px;
-            height: 350px;
-            border-radius: 3%;
-            display: flex;
-            margin-top: 70px;
-            margin-bottom: 30px;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            text-align: center;
-        }
-        .login-info{
-            margin-bottom: 20%;
-        }
+                background-color: rgb(255, 255, 255);
+                box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+                width: 400px;
+                height: 350px;
+                border-radius: 3%;
+                display: flex;
+                margin-top: 70px;
+                margin-bottom: 30px;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .login-info {
+                margin-bottom: 20%;
+                
+            }
         }
 
-
-
-        /* section,
-        div {
-            border: red solid 1px;
-        } */
 
         section {
             height: 900px;
@@ -145,18 +147,6 @@
             margin-top: 20px;
         }
 
-        /* .info-msg {
-            height: 100px;
-            margin-top: 10%;
-        } */
-
-        
-
-        /* .title {
-            margin-top: 180px;
-            width: 450px;
-        } */
-
         ol {
             font-size: 6ch;
             font-weight: 600;
@@ -170,19 +160,22 @@
 
         .input {
             height: 50px;
-            width: 380px;
+            width: 360px;
             border-radius: 3%;
             outline: rgb(221, 223, 226);
             margin-top: 15px;
             border-style: solid;
             border-width: 2px;
             border-color: rgb(221, 223, 226);
+            border-radius: 3%;
+            border-radius: 10px;
+           
         }
 
         .login-button {
             border: 0;
             outline: 0;
-            width: 380px;
+            width: 360px;
             height: 50px;
             background-color: rgb(24, 119, 242);
             color: #fff;
@@ -233,10 +226,6 @@
             text-align: center;
         }
 
-        /* .login-info {
-            display: flex;
-            flex-direction: column;
-        } */
     </style>
 </head>
 
@@ -254,7 +243,7 @@
                         <input type="password" class="input" placeholder="비밀번호">
                         <button class="login-button">로그인</button>
                         <a class="password-search"> 비밀번호를 잊으셨나요?</a>
-                        <hr>
+                        <hr style="width: 360px;">
                         <button class="new-account">새 계정 만들기</button>
                     </div>
                     <div class="page">유명인, 브랜드 또는 비즈니스를 위한 &nbsp <strong>페이지 만들기</strong>.</div>
@@ -267,7 +256,7 @@
                     한국어 English (US) Tiếng Việt Bahasa Indonesia ภาษาไทย Español 中文(简体) 日本語 Português (Brasil) Français
                     (France) Deutsch
                 </div>
-                <hr>
+                <hr >
                 <div class="info-2">
                     가입하기 로그인 Messenger Facebook Lite Watch 장소 게임 Marketplace Meta PayMeta 스토어 Meta Quest Instagram 기부
                     캠페인 서비스
